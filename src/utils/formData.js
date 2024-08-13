@@ -22,4 +22,6 @@ export let formData = {
     productDesc: "",
     link: "",
     upload: "",
+    others: false,
+    uploadData: [],
 };

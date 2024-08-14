@@ -6,6 +6,7 @@ import PastCampaign from "../ManageCampaign/Components/PastCampaign/PastCampaign
 import DraftCampaign from "../ManageCampaign/Components/DraftCampaign/DraftCampaign";
 import AddCampaign from "../ManageCampaign/AddCampaign/AddCampaign";
 import CampaignSummary from "../ManageCampaign/AddCampaign/CampaignData";
+import ManageCamp from "../ManageCampaign/MangeCamp";
 
 
 
@@ -29,12 +30,7 @@ const MainRouter = () => {
         />
         <Route
           path="/manageCampaign"
-          element={
-            <div className="h-screen w-screen flex items-center justify-center bg-slate-400">
-              {" "}
-              manageCampaign
-            </div>
-          }
+          element={<ManageCamp/>}
         />
        
         <Route

@@ -27,7 +27,7 @@ const Dashboard = () => {
       }  overflow-y-auto   space-y-4 p-4 `}
     >
      
-       <div className="flex flex-col justify-between ml-8 mt-2 mb-2  gap-4">
+       <div className="flex flex-col justify-between ml-6 mt-2 mb-2  gap-4">
         <CampaignComponent/>
         <PieChartComponent/>
        </div>

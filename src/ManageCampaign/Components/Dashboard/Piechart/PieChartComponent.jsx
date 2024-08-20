@@ -3,8 +3,8 @@ import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from "recharts";
 import { GoDotFill } from "react-icons/go";
 
 const data = [
-  { name: "Snapchat", value: 700 },
-  { name: "LinkIn", value: 250 },
+  { name: "Snapchat", value: 567.45 },
+  { name: "LinkedIn", value: 248.5 },
   { name: "Instagram", value: 300 },
   { name: "Instagram", value: 250 },
   { name: "Instagram", value: 250 },
@@ -81,9 +81,11 @@ const PieChartComponent = () => {
     <>
      <div className="h-[471px] w-[284px] ">
      <div className="p-4 bg-white rounded-[14px]  h-[471px]  border-2  top-2 relative">
-        <h1 className="text-gray-900  font-semibold text-base ">
+         <div className="w-[168px] h-[24px]">
+         <h1 className="text-[#1f2223]  font-semibold text-base font-body ">
           Audience Insights
         </h1>
+         </div>
         <PieChart
           width={200}
           height={200}
@@ -113,9 +115,9 @@ const PieChartComponent = () => {
         </PieChart>
         <div className="w-[238.86px] h-[104px] grid grid-cols-2  absolute top-[270px] gap-x-8 ">
           {data.map((entry, index) => (
-            <div key={`legend-${index}`} className="flex items-center  ">
-              <span style={{ color: COLORS[index % COLORS.length] }}>
-                <GoDotFill size={25} />
+            <div key={`legend-${index}`} className="flex items-center  w-[111.93px] h-[24px]   ">
+              <span style={{ color: COLORS[index % COLORS.length],  }} >
+                <GoDotFill size={28} />
               </span>
               <span className="text-gray-900 text-sm">{entry.name}</span>
             </div>

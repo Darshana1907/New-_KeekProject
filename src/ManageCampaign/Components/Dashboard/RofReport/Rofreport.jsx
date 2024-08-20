@@ -51,7 +51,7 @@ const RoiComp = ({expanded}) => {
           <select
             value={view}
             onChange={(e) => setView(e.target.value)}
-            className=" px-4  py-1 rounded-[5px] text-[12px] font-semibold font-body  bg-white border-2 border-[#b1b2b2]"
+            className=" px-2  py-1 rounded-[5px] w-[90px] text-[12px] font-semibold font-body  bg-white border-2 border-[#b1b2b2]"
           >
             <option value="monthly">Months</option>
             <option value="yearly">Year</option>

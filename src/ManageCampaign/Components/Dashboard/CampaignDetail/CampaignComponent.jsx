@@ -46,7 +46,7 @@ const CampaignComponent = () => {
         </div>
 
         <div className="flex justify-end">
-          <button className="bg-[#F6F6F6] h-[40px]g p-2 rounded-full">
+          <button className="bg-[#F6F6F6] h-[40px] p-2 rounded-full">
             <KeyboardArrowRightIcon />
           </button>
         </div>

@@ -11,7 +11,7 @@ const InvestComp = ({expanded}) => {
   return (
     <div  className={`${expanded ? '  w-[728px]': 'w-full' }  `}>
       <div className="container  mx-auto ">
-        <div className="flex  justify-between mt-3  h-[123px]  p-6 bg-white rounded-[10px]">
+        <div className="flex  justify-between mt-3  h-[123px]  px-[32px] py-[22px] bg-white rounded-[10px]">
           <div className="text-start">
             <div className="text-[14px] font-semibold font-body text-[#797a7b]">INVESTED</div>
             <div className=" mt-4 text-[20px] font-body text-[#1f2223] font-semibold">${data.invested.toLocaleString()}</div>

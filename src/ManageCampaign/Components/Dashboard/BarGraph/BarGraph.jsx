@@ -56,12 +56,12 @@ const BarGraph = ({expanded}) => {
           <select
             value={timeFrame}
             onChange={(e) => setTimeFrame(e.target.value)}
-            className="border-2 border-[b1b2b2] bg-white rounded-md px-[16px] py-1 text-[12px] font-semibold font-body "
+            className="border-2 border-[#b1b2b2] w-[87px] bg-white rounded-md px-[16px] py-1 text-[12px] font-semibold font-body "
           >
             <option>Weeks</option>
             <option>Months</option>
           </select>
-          <button className="border-2 flex items-center gap-1 border-[b1b2b2] rounded-md px-[16px] py-1 text-[11px] font-semibold font-body ">
+          <button className="border-2 flex  items-center gap-1 border-[#b1b2b2] rounded-md px-[16px] py-1 text-[11px] font-semibold font-body ">
           <span><HiOutlineDocumentDownload  className="text-[15px]"/></span>
             Export PDF
           </button>

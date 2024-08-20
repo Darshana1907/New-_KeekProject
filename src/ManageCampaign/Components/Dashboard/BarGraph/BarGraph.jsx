@@ -50,7 +50,7 @@ const BarGraph = ({expanded}) => {
    <>
     <div className={` mt-[-1%] ${expanded ? '  w-[724px] h-[301px]': 'w-full h-[301px]' }  `}>
     <div className="   mx-auto p-4 h-[301px]  bg-white rounded-[14px]">
-      <div className="flex  h-[30px] justify-between items-center mb-4">
+      <div className="flex w-[684.84px]  h-[30px] justify-between items-center mb-4">
         <h2 className="text-[16px] font-semibold font-body">Performance Measure</h2>
         <div className="flex items-center space-x-3">
           <select
@@ -85,19 +85,21 @@ const BarGraph = ({expanded}) => {
       </div>
        </div>
 
-      <div className="  text-start  mt-[-25px]  h-[192px] ">
+      <div >
+      <div className="  text-start  mt-[-25px]     h-[192px] ">
         <div className=" my-3 text-[#797a7b] text-[12px] font-normal font-body  " >DECREASE 
           <div className='flex mt-1 items-center gap-2 text-[18px] font-semibold font-body text-[#ff424c]'>20% <IoArrowDownOutline/> </div>
              
         </div>
         <div className=" my-3 text-[#797a7b] text-[12px] font-normal font-body  ">CURRENT  {timeFrame.toUpperCase()} 
-        <div className=" mt-1  text-[18px] font-semibold font-body text-gray-900">$200,000</div>
+        <div className=" mt-1  text-[18px] font-semibold font-body text-gray-900">$ 200,000</div>
         </div>
        
         <div className=" my-3 text-[#797a7b] text-[12px] font-normal font-body  ">PREVIOUS {timeFrame.toUpperCase()}
         <div className="  mt-1  text-[18px] font-semibold font-body text-gray-900">$200,000</div>
         </div>
         
+      </div>
       </div>
 
     </div>

@@ -62,7 +62,7 @@ const RoiComp = ({expanded}) => {
           </button>
         </div>
       </div>
-      <div className="relative h-[224px]   mt-[41px] w-[689.69px] ">
+      <div className="relative h-[224px]   mt-[41px]  ">
         <ResponsiveContainer width="100%" height="100%">
           <AreaChart 
            

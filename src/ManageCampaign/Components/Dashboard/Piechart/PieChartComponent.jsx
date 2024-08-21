@@ -3,13 +3,15 @@ import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from "recharts";
 import { GoDotFill } from "react-icons/go";
 
 const data = [
-  { name: "Snapchat", value: 567.45 },
-  { name: "LinkedIn", value: 248.5 },
-  { name: "Instagram", value: 300 },
-  { name: "Instagram", value: 250 },
-  { name: "Instagram", value: 250 },
+ 
+  
+  { name: "Instagram", value: 48 },
+  { name: "Snapchat", value:  90 },
+  { name: "Linkedin", value: 46 },
+  { name: "Instagram", value: 60 },
+  { name: "Instagram", value: 30 },
 ];
-const COLORS = ["#F9D262", "#4C60E0", "#DEAAEF", "#CFF38D", "#EA8389"];
+const COLORS = ["#EA8389","#F9D262","#4C60E0","#DEAAEF","#CFF38D" ];
 
 const PieChartComponent = () => {
   const [activeIndex, setActiveIndex] = useState(-1);

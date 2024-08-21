@@ -82,7 +82,8 @@ const PieChartComponent = () => {
   return (
     <>
      <div className="h-[471px] w-[284px] ">
-     <div className="p-4 bg-white rounded-[14px]  h-[471px]  border-2  top-2 relative">
+     <div className="p-4 bg-white rounded-[14px]  h-[471px]  border-2  top-2
+      relative">
          <div className="w-[168px] h-[24px]">
          <h1 className="text-[#1f2223]  font-semibold text-base font-body ">
           Audience Insights

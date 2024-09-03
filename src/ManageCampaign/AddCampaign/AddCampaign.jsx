@@ -496,7 +496,7 @@ const AddCampaign = () => {
                 />
 
                 <div className="mt-2 flex flex-wrap">
-                  {formData.selectedOptionsplatform.map((option) => (
+                  {selectedOptionsplatform.map((option) => (
                     <div
                       key={option.value}
                       className="inline-flex items-center px-3 py-1 mr-2 mb-2 bg-[#384EDD] text-sm text-white rounded-full"

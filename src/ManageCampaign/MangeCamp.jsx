@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { Mycontext } from "../utils/Context";
+import { Mycontext } from "../utils/Context"
 import { Link, useLocation } from "react-router-dom";
 
 const ManageCamp = () => {

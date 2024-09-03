@@ -33,11 +33,11 @@ const DraftCampaign = () => {
             Easily create new campaign, keep track of live & past campaigns.
           </p>
         </div>
-        <Link to={""}>
-          <button class="bg-[#06F] text-white text-primary-foreground flex items-center hover:bg-primary/80 px-4 py-2 rounded-lg ">
-            <span class="mr-2 text-3xl">+</span> Add Campaign
-          </button>
-        </Link>
+        <Link to={"/AddCampaign"}>
+            <button class="bg-[#06F] text-white text-primary-foreground flex items-center hover:bg-primary/80 px-4 py-2 rounded-lg ">
+              <span class="mr-2 text-3xl">+</span> Add Campaign
+            </button>
+          </Link>
 
       </div>
         <div class="flex border-b border-border">

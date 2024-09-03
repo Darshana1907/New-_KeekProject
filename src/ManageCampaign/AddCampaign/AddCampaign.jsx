@@ -9,12 +9,12 @@ import { RiErrorWarningLine } from "react-icons/ri";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Mycontext } from "../../utils/Context";
 import { IoIosCheckmark } from "react-icons/io";
-import { IoCloseSharp } from "react-icons/io5";
+// import { IoCloseSharp } from "react-icons/io5";
 import fileImg from "../../Assets/fileImg.svg";
 import { LuCreditCard } from "react-icons/lu";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import CampaignSummary from "./CampaignData";
-import { Payment } from "@mui/icons-material";
+// import { Payment } from "@mui/icons-material";
 
 const AddCampaign = () => {
   const contextState = useContext(Mycontext);
@@ -383,9 +383,9 @@ const AddCampaign = () => {
           <div className="h-[64.85px]  border-b">
             <div className="flex flex-row p-6 px-[40px] items-center gap-[3.14px]">
               <Link
-                to="/manageCampaign"
+                to="/CampaignManagement"
                 className={`text-[16px] font-normal font-body flex flex-row ${
-                  currentPath === "/manageCampaign" ? "text-[#2463eb]" : ""
+                  currentPath === "/CampaignManagement" ? "text-[#2463eb]" : ""
                 }`}
               >
                 Manage Campaigns
@@ -496,7 +496,7 @@ const AddCampaign = () => {
                 />
 
                 <div className="mt-2 flex flex-wrap">
-                  {selectedOptionsplatform.map((option) => (
+                  {formData.selectedOptionsplatform.map((option) => (
                     <div
                       key={option.value}
                       className="inline-flex items-center px-3 py-1 mr-2 mb-2 bg-[#384EDD] text-sm text-white rounded-full"
@@ -618,7 +618,7 @@ const AddCampaign = () => {
                     id="startDate"
                     value={formData.startDate}
                     onChange={handlechangeDate}
-                    className={`shadow appearance-none mt-3 w-full px-[20px] py-[19px] border-[#363939]  border rounded-md text-[#B1B2B2] focus:outline-none focus:border-[#0066FF] ${
+                    className={`shadow appearance-none mt-3 w-full   py-[19px] border-[#363939]  border rounded-md text-[#B1B2B2] focus:outline-none focus:border-[#0066FF] ${
                       errors.startDate ? "border-red-500" : ""
                     }`}
                   />
